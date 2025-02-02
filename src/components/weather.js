@@ -18,7 +18,7 @@ function Weather(){
     async function dataFetch(){
       if(!toggle)
       return;
-    const data = await fetch(`http://api.weatherapi.com/v1/current.json?key=852b79af6ddc4d1bb5d64436241405&q=${cityInput}&aqi=no`)
+    const data = await fetch(`https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=${cityInput}&aqi=no`);
     const result = await data.json()
     const location = result.location
     const current = result.current
