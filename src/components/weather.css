@@ -1,0 +1,75 @@
+.weather-app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:40%;
+  gap:30px;
+}
+
+.city-input{
+  padding:10px;
+  outline: none;
+  border:2px solid black;
+  box-shadow: 5px 5px 10px #232323;
+  transition: 0.4s border ease;
+  border-radius:10px;
+}
+.city-input:hover{
+  border:2px solid red;
+}
+.enter-button{
+  padding:10px;
+  background-color: #2dcf0f;
+  box-shadow: 5px 5px 10px #232323;
+  border-radius:10px;
+}
+.location-data{
+   color:#FF5722;
+   text-align: center;
+}
+.weather-data-day{
+  width:500px;
+  height:500px;
+  box-shadow: 5px 5px 10px #232323;
+  background-color: skyblue;
+}
+.weather-data-night{
+  width:400px;
+  height:400px;
+  box-shadow: 5px 5px 10px #232323;
+  background-color: black;
+}
+p{
+  text-align: center;
+  color:red;
+}
+.sunIcon{
+  color:yellow;
+  font-size: 1.6em;
+}
+.moonIcon{
+  color:#FFFFFF;
+  font-size: 1.6em;
+}
+.high-temp-icon{
+  color:red;
+}
+.low-temp-icon{
+  color:snow;
+}
+.up-temp-icon{
+  color:red;
+}
+.down-temp-icon{
+  color:snow;
+}
+.globe-icon{
+  color:blue;
+}
+.eyeIcon{
+  color: #585858;
+}
+.wind-icon{
+  color:snow;
+}
