@@ -92,7 +92,7 @@ function Weather(){
       ):null}
     </nav>
   <footer>
-        <div className="footer-text">© 2025 Polling Website . All rights reserved
+        <div className="footer-text">© 2025 Weather App Website . All rights reserved . Ayushkant 
          <a href="mailto:rudrabehera2006@gmail.com" className="footer-text">CONTACT:rudrabehera2006@gmail.com</a>
         </div>
        
