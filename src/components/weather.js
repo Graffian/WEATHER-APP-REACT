@@ -70,6 +70,7 @@ function Weather(){
     }
   }
   return(
+    <>
     <nav className="weather-app">
       <div className="input-enter-fields">
         <input className="city-input" placeholder="enter a city...." value ={cityInput} onChange={handleCityInput}/>
@@ -90,6 +91,13 @@ function Weather(){
       </div>
       ):null}
     </nav>
+  <footer>
+        <div className="footer-text">© 2025 Polling Website . All rights reserved
+         <a href="mailto:rudrabehera2006@gmail.com" className="footer-text">CONTACT:rudrabehera2006@gmail.com</a>
+        </div>
+       
+      </footer>
+    </>
     )
 }
 export default Weather
